@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Popusoi Liviu </title>
+    <link rel="stylesheet" href="styles.css.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bonjour, je suis Popusoi Liviu </h1>
+            <p>Étudiant en 2ème année de BTS SIO option SISR</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Je m'appelle POPUSOI Liviu, et je suis actuellement en 2ème année de BTS SIO option SISR. Suite à l'obtention de mon baccalauréat STI2D avec la spécialité ITEC, j'ai décidé de poursuivre mes études dans le domaine de l'informatique et j'ai donc choisi d'aller en BUT informatique. Suite à cette année, j'ai décidé de me réorienter et d'aller dans la formation où je suis actuellement.</p>
+            <p>Je suis passionné par l'administration réseau et la sécurité informatique. Actuellement, je développe des compétences avancées en gestion d'infrastructure réseau et sécurité des systèmes d'information. Mon parcours inclut des projets tels que la configuration de réseaux complexes et la mise en place de solutions de haute disponibilité.</p>
+            <h3>Formation:</h3>
+            <li>BTS SIO OPTION SISR(en cours) Lycée Parc de Vilgénis, Massy</li>
+            <li>BUT informatique(1ére année) IUT d'Orsay - Université Paris Saclay, Gif-Sur-Yvette</li>
+            <li>Baccalauréat technologique(STI2D) Lycée de l'Essouriau, Les Ulis </li>
+            <li>Brevet(2020) Collège Aimé Césaire, Les Ulis</li>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Compétences techniques</h2>
+            <ul>
+                <h3>BTS SIO:</h3>
+                <li>Réseaux : configuration des VLANs, routage dynamique (OSPF), NAT, pare-feu (iptables, pfSense).</li>
+                <li>Administration de serveurs : Windows Server (Active Directory, GPO, DNS), Linux (serveurs Apache, Nginx).</li>
+                <li>Virtualisation : VMware, Hyper-V.</li>
+                <li>Sécurité : durcissement des systèmes, audit de sécurité, gestion des droits d’accès.</li>
+                <li>Outils de monitoring : Nagios, Zabbix.</li>
+                <li>Scripts : PowerShell, Bash.</li>
+
+                <h3>BUT informatique:</h3>
+                <h3>Languages:</h3>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Java</li>
+                
+                <h3>Base de données:</h3>
+                <li>SQL</li>
+                <li>Modélisation conceptuelle de données (MCD)</li>
+                <li>Schéma relationnel (SR)</li>
+
+                <h3>Logiciel de programmation:</h3>
+                <li>Code Blocks, Visual Studio Code, Oracle, SQLite, Looping, Notepad++, Eclipse</li>
+            </ul>
+            <h2>Compétences générales:</h2>
+            <ul>
+                <h3>Logiciels bureautiques:</h3>
+                <li>Office(Excel, Word...)</li>
+                <li>Google Docs, Slides</li>
+                <li>Canva</li>
+
+                <h3>Langues:</h3>
+                <li>Français</li>
+                <li>Anglais niveau B2</li>
+                <li>Espagnol niveau B2</li>
+                <li>Roumain bilingue</li>
+                <li>Portugais bilingue</li>
+            </ul>
+            <h2>Expériences professionelles:</h2>
+            <ul>
+                <li>Stage BUT Informatique: Stage en mircro-entrepise, création d'un site web pour la micro-entrepise</li>
+                <li>Stage de 3éme dans un salon de coiffure(2020)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projets réalisés</h2>
+
+            <div class="project">
+                <h3>1. Configuration d'une infrastructure réseau pour Station F</h3>
+                <p>Ce projet a consisté à concevoir et configurer une infrastructure réseau complète pour la startup CryptoFin, hébergée à Station F. J'ai mis en place une topologie réseau avec des VLANs pour séparer les différents départements (Finance, IT, RH) et assuré le routage dynamique via OSPF pour garantir une redondance en cas de panne d'un routeur.On a déployé et configuré des serveurs DHCP et DNS pour un environnement d'entreprise. Le serveur DHCP assure la distribution automatique des adresses IP, tandis que le serveur DNS gère la résolution des noms de domaine en interne, optimisant ainsi l'accès aux ressources.</p>
+                <p>Technologies utilisées :
+                    <ul>
+                        <li>Switches Cisco pour la gestion des VLANs</li>
+                        <li>Routeurs configurés avec OSPF pour la redondance et la gestion du trafic</li>
+                        <li>Firewall pfSense pour sécuriser le réseau et mettre en place des règles d'accès spécifiques</li>
+                        <li>Windows Server 2019 pour le DHCP</li>
+                        <li>Bind9 sur Linux pour la gestion DNS</li>
+                    </ul>
+                </p>
+                <p>Résultat: Une infrastructure réseau sécurisée, scalable, et adaptée aux besoins de l'entreprise. Optimisation de la gestion des adresses IP et amélioration de la résolution des noms de domaine dans l’infrastructure réseau.</p>
+            </div>
+
+            <div class="project">
+                <h3>2. Projet CWAC</h3>
+                <p>Création d'un site web pour promouvoir une école ficitive.</p>
+                <p>Technologies utilisées :
+                    <ul>
+                        <li>Notepad++</li>
+                        <li>HTML, CSS</li>
+                    </ul>
+                </p>
+                <p>Résultat: Site web réalisé avce toute les demande d'information,d'inscription et de contact disponible.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>N'hésitez pas à me contacter pour discuter de projets ou d'opportunités professionnelles.</p>
+            <p>Email : <a>pro.liviu.popusoi@gmail.com</a></p>
+            <p>LinkedIn : <a href="https://linkedin.com/in/ton-profil" target="_blank">Mon LinkedIn</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Popusoi Liviu.</p>
+        </div>
+    </footer>
+</body>
+</html>
